@@ -55492,7 +55492,7 @@ return null},
 $S:0}
 A.Ym.prototype={
 N(a){var s=null,r=A.D(a),q=t.p
-return A.bY(s,new A.aE(B.eJ,A.eY(A.asJ(A.cx(A.a([A.eY(A.dl(a,s,800,!1,s,s,A.a([A.Av(a,A.bh7(a))],q)),B.l,15),A.eY(A.dl(a,25,800,!0,s,"Bountyful World is Under Maintenance",A.a([B.abg],q)),B.l,15),A.dl(a,s,800,!1,4,"Get On The List!",A.a([A.eY(A.b1J(this.c,!1),B.l,100)],q))],q),B.p,B.aC,B.v),s,B.b7),B.l,10),s),B.j,r.ax.b,s,s,s,1/0,s,s,s,s,1/0)}}
+return A.bY(s,new A.aE(B.eJ,A.eY(A.asJ(A.cx(A.a([A.eY(A.dl(a,s,800,!1,s,s,A.a([A.Av(a,A.bh7(a))],q)),B.l,15),A.eY(A.dl(a,25,800,!0,s,"A Bountyful World is developing!",A.a([B.abg],q)),B.l,15),A.dl(a,s,800,!1,4,"Get On The List!",A.a([A.eY(A.b1J(this.c,!1),B.l,100)],q))],q),B.p,B.aC,B.v),s,B.b7),B.l,10),s),B.j,r.ax.b,s,s,s,1/0,s,s,s,s,1/0)}}
 A.ue.prototype={
 ad(){return new A.a1Y(new A.by(null,t.am),A.bdu(".",2,""),new A.aJ(Date.now(),!1),B.i)}}
 A.a1Y.prototype={

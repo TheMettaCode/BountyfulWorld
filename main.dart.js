@@ -54323,7 +54323,7 @@ A.aKD.prototype={
 $0(){var s=0,r=A.x(t.H),q
 var $async$$0=A.t(function(a,b){if(a===1)return A.u(b,r)
 while(true)switch(s){case 0:s=3
-return A.o(A.qm("\u2b50A Bountyful World awaits!\nBringing you a world of opportunities. Facilitating your search for all things unique & elusive, large & small. Beta testing starts soon. Join now for early access!\n#bountyfulworld #bountyhunter #cashreward #bounty",!0,"https://bountyfulworld.com"),$async$$0)
+return A.o(A.qm("\u2b50A Bountyful World awaits! Bringing you a world of opportunities. Facilitating your search for all things unique & elusive, large & small. Beta testing starts soon. Join now for early access! #bountyfulworld #bountyhunter #cashreward #bounty",!0,"https://bountyfulworld.com"),$async$$0)
 case 3:q=b
 s=1
 break

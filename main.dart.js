@@ -10068,21 +10068,20 @@ this.b=b
 this.c=c},
 eF:function eF(a,b){this.a=a
 this.b=b},
-qm(a,b){var s="",r=""
-return A.bfp(a,b)},
-bfp(a3,a4){var s=0,r=A.x(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2
+qm(a,b,c){var s=""
+return A.bfp(a,b,c)},
+bfp(a2,a3,a4){var s=0,r=A.x(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
 var $async$qm=A.t(function(a5,a6){if(a5===1){p=a6
 s=q}while(true)switch(s){case 0:b=""
-a=""
-a0=$.b5h()
-a1=$.b5l()
+a=$.b5h()
+a0=$.b5l()
 $.b5i()
 g=$.b5f()
 f=$.b5g()
 $.b5j()
 $.b5k()
 $.bX().bX(B.O,"[TWITTER API] BEGINNING TWEET POST PROCESS",null,null)
-e=new A.aGE(new A.aGI(new A.Uf(a0,a1,g,f),null),new A.aNi(new A.aqm(5,new A.auG())),B.Ne)
+e=new A.aGE(new A.aGI(new A.Uf(a,a0,g,f),null),new A.aNi(new A.aqm(5,new A.auG())),B.Ne)
 o=new A.aOX(new A.aOY(new A.aOW(new A.If("api.twitter.com",e)),new A.aK6(new A.If("upload.twitter.com",e),new A.If("api.twitter.com",e))))
 q=3
 s=J.aK(b)!==0?6:8
@@ -10093,18 +10092,18 @@ case 9:n=a6
 e=o.a
 d=n.e
 s=10
-return A.o(e.a.wm(new A.awQ(A.a([d.gZp(d)],t.s)),a3),$async$qm)
+return A.o(e.a.wm(new A.awQ(A.a([d.gZp(d)],t.s)),a2),$async$qm)
 case 10:s=7
 break
 case 8:$.bX().bX(B.O,"[TWITTER API] ATTEMPTING TEXT ONLY TWEET POST",null,null)
 s=11
-return A.o(o.a.a.arR(a3+"\n"+A.f(a)),$async$qm)
+return A.o(o.a.a.arR(a2+"\n"+a4),$async$qm)
 case 11:case 7:q=1
 s=5
 break
 case 3:q=2
-a2=p
-e=A.aj(a2)
+a1=p
+e=A.aj(a1)
 if(e instanceof A.vH){m=e
 $.bX().bX(B.O,m,null,null)}else if(e instanceof A.Jk){l=e
 $.bX().bX(B.O,l,null,null)}else if(e instanceof A.Hg){k=e
@@ -10113,7 +10112,7 @@ $.bX().bX(B.O,j,null,null)}else if(e instanceof A.Ji){i=e
 $.bX().bX(B.O,i,null,null)}else if(e instanceof A.Aj){h=e
 $.bX().bX(B.O,h.b.e,null,null)
 $.bX().bX(B.O,h.c,null,null)
-$.bX().bX(B.O,h,null,null)}else throw a2
+$.bX().bX(B.O,h,null,null)}else throw a1
 s=5
 break
 case 2:s=1
@@ -53443,7 +53442,7 @@ k=$.oP().eX(k)
 m=m.length
 j=m===1?"hunter":"hunters"
 s=8
-return A.o(A.qm("\ud83d\udd75\ud83c\udffdNew Bounty Hunter Alert!\nA "+k+" USD bounty now has "+m+" "+j+"! Don't miss out and get in on the action!\n#bountyfulworld #bountyhunter #worldmarket",!1),$async$vO)
+return A.o(A.qm("\ud83d\udd75\ud83c\udffdNew Bounty Hunter Alert!\nA "+k+" USD bounty now has "+m+" "+j+"! Don't miss out and get in on the action!\n#bountyfulworld #bountyhunter #worldmarket",!1,""),$async$vO)
 case 8:l=A.cc(!0,l)
 q=l
 s=1
@@ -53579,7 +53578,7 @@ s=7
 return A.o(A.l7(n).az(0,new A.aag(),l),$async$vZ)
 case 7:k=A.fH(n.r)
 s=8
-return A.o(A.qm("\ud83c\udfc5Bounty Award Alert!\nA "+$.oP().eX(k)+" USD bounty has been completed and is now in the award process! Don't miss out and get in on the action!\n#bountyfulworld #bountyhunter #worldmarket",!1),$async$vZ)
+return A.o(A.qm("\ud83c\udfc5Bounty Award Alert!\nA "+$.oP().eX(k)+" USD bounty has been completed and is now in the award process! Don't miss out and get in on the action!\n#bountyfulworld #bountyhunter #worldmarket",!1,""),$async$vZ)
 case 8:l=A.cc(!0,l)
 q=l
 s=1
@@ -54321,7 +54320,7 @@ case 1:return A.v(q,r)}})
 return A.w($async$$0,r)},
 $S:11}
 A.aKD.prototype={
-$0(){return A.qm("\u2b50 Bountyful World Market Test Tweet",!0)},
+$0(){return A.qm("\u2b50 A Bountyful World awaits!\nThe Bountyful World Market will bring you a world of opportunities by facilitating your search for all things unique and elusive, large and small. Beta testing will begin soon. Get on our mailing list now to have early access!\n#bountyfulworld #bountyhunter #reward",!0,"https://bountyfulworld.com")},
 $S:0}
 A.aKE.prototype={
 $0(){var s=0,r=A.x(t.H),q=this
@@ -55842,7 +55841,7 @@ case 5:p=q.a.CW
 if(q.b){p=A.fH(p)
 p="\ud83e\udd11High Reward Bounty Alert!\nA "+$.oP().eX(p)+" USD bounty has just been listed with Bountyful World! Don't miss out on this high reward bounty and get in on the hunt!\n#bountyfulworld #bountyhunter #worldmarket #highdollar"}else{p=A.fH(p)
 p="\ud83e\uddedNew Bounty Alert!\nA "+$.oP().eX(p)+" USD bounty has just been listed with Bountyful World! Don't miss out and get in on the hunt!\n#bountyfulworld #bountyhunter #worldmarket"}s=6
-return A.o(A.qm(p,!1),$async$$1)
+return A.o(A.qm(p,!1,""),$async$$1)
 case 6:s=3
 break
 case 4:A.b4().$1("[ADD BOUNTY] ERROR ADDING BOUNTY. ABORTING ADD BOUNTY.")

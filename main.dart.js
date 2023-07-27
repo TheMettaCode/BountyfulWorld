@@ -53863,7 +53863,7 @@ r=A.D(r).ax
 q=r.y
 r=q==null?r.f:q
 r=new A.bI(A.ak(89,r.gm(r)>>>16&255,r.gm(r)>>>8&255,r.gm(r)&255),t.h9)}else r=m
-r=A.Eh(!1,B.ab9,B.j,m,m,m,m,m,l,m,A.eB(m,m,r,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
+r=A.Eh(!1,B.ab8,B.j,m,m,m,m,m,l,m,A.eB(m,m,r,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
 l=J.e($.en().a,3)?new A.aLc():new A.aLd()
 if(J.e($.en().a,3)){q=n.c
 q.toString
@@ -54201,9 +54201,9 @@ k=A.hL(B.PF,B.aaX,f,new A.aKA(a),f)
 j=g.at.length
 j=j===0?B.m:A.hL(B.Pz,A.aQ(""+j+" Email Subscribers",f,f,f,f,f,f),f,new A.aKB(),f)
 i=t.p
-j=A.cx(A.a([k,j,A.hL(B.PS,B.ab5,f,new A.aKC(a),f)],i),B.cc,B.u,B.v)
+j=A.cx(A.a([k,j,A.hL(B.PS,B.ab4,f,new A.aKC(a),f)],i),B.cc,B.u,B.v)
 if(n)n=B.m
-else{n=A.hL(B.PT,B.ab3,f,new A.aKD(),f)
+else{n=A.hL(B.PT,B.aba,f,new A.aKD(),f)
 k=A.hL(B.PP,B.abj,f,new A.aKE(a),f)
 h=g.x
 h=h==null?B.m:A.hL(B.PR,A.aQ(""+h.c+" App Opens",f,f,f,f,f,f),f,f,f)
@@ -54320,8 +54320,16 @@ case 1:return A.v(q,r)}})
 return A.w($async$$0,r)},
 $S:11}
 A.aKD.prototype={
-$0(){return A.qm("\u2b50 A Bountyful World awaits!\nThe Bountyful World Market will bring you a world of opportunities by facilitating your search for all things unique and elusive, large and small. Beta testing will begin soon. Get on our mailing list now to have early access!\n#bountyfulworld #bountyhunter #reward",!0,"https://bountyfulworld.com")},
-$S:0}
+$0(){var s=0,r=A.x(t.H),q
+var $async$$0=A.t(function(a,b){if(a===1)return A.u(b,r)
+while(true)switch(s){case 0:s=3
+return A.o(A.qm("\u2b50 A Bountyful World awaits!\nThe Bountyful World Market will bring you a world of opportunities by facilitating your search for all things unique and elusive, large and small. Beta testing will begin soon. Get on our mailing list now to have early access!\n#bountyfulworld #bountyhunter #cash #reward #bounty",!0,"https://bountyfulworld.com"),$async$$0)
+case 3:q=b
+s=1
+break
+case 1:return A.v(q,r)}})
+return A.w($async$$0,r)},
+$S:11}
 A.aKE.prototype={
 $0(){var s=0,r=A.x(t.H),q=this
 var $async$$0=A.t(function(a,b){if(a===1)return A.u(b,r)
@@ -54403,7 +54411,7 @@ a=a1.ay
 if(a==null||a<h)h=B.m
 else{h=A.D(a2).ax
 a=h.y
-h=A.cT(B.bP,A.a([A.bL(A.hL(A.cS(B.k9,a==null?h.f:a,20),B.abb,i,i,i),30,i)],l),B.y,B.V)}a=A.fH(s)<5000?B.m:A.cT(B.bP,A.a([A.bL(A.hL(B.PV,B.ab6,i,i,i),30,i)],l),B.y,B.V)
+h=A.cT(B.bP,A.a([A.bL(A.hL(A.cS(B.k9,a==null?h.f:a,20),B.abb,i,i,i),30,i)],l),B.y,B.V)}a=A.fH(s)<5000?B.m:A.cT(B.bP,A.a([A.bL(A.hL(B.PV,B.ab5,i,i,i),30,i)],l),B.y,B.V)
 if(d.length===0)d=B.m
 else{s=A.D(a2).ax
 k=s.y
@@ -54417,7 +54425,7 @@ if(h&&!e)a=B.m
 else{a=t.Il
 if(!b){a=A.eB(i,i,new A.bI(B.dI,a),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
 a=A.jA(A.cS(B.wk,A.D(a2).ax.c,i),B.abd,new A.aFy(j,a1,f),a)}else{a=A.eB(i,i,new A.bI(A.D(a2).ax.at,a),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
-a=A.jA(A.cS(B.wk,A.D(a2).ax.c,i),B.ab4,new A.aFz(j,a1,f),a)}a=A.bL(a,30,i)}if(g)h=B.m
+a=A.jA(A.cS(B.wk,A.D(a2).ax.c,i),B.ab3,new A.aFz(j,a1,f),a)}a=A.bL(a,30,i)}if(g)h=B.m
 else{if(e)p=B.m
 else{p=t.Il
 p=c?A.bL(A.jA(B.kb,B.ab_,new A.aFA(j,a1,a3,f,a2),A.eB(i,i,new A.bI(A.D(a2).ax.at,p),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),30,i):A.bL(A.jA(B.PW,B.abc,new A.aFB(j,a3,a2,a1,f),A.eB(i,i,new A.bI(B.dI,p),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),30,i)}r=A.bL(A.jA(B.wu,B.Hq,new A.aFC("Check out this Bountyful World listing! I thought you might be interested.\n\nBounty ID: "+a1.a+"\n"+a1.e+"\n\t"+a1.f+"\n\nListing Information:\n\tBounty Reward: \b"+r+"\b\n\t"+q+" Hunting\n\t"+o+" Inquiries",a2),i),30,i)
@@ -55064,7 +55072,7 @@ q=A.cL(q,f,e)
 q=A.cx(A.a([B.vE,A.aQ(A.cL(q,d,j),l,l,l,l,l,l),B.aF],t.p),B.p,B.u,B.v)}p=t.p
 o=t.Il
 n=m.a
-return A.eY(new A.aE(B.Nu,A.lx(new A.aE(B.vR,A.cx(A.a([s,B.aF,new A.fO(1,B.bh,A.nu(A.a([c,B.vE,r,B.aF,q],p),B.b7,B.a0,!0),l),new A.aE(B.d0,A.c8(A.a([A.bL(A.jA(B.PN,B.aba,new A.ahq(n,a),A.eB(l,l,new A.bI(A.D(a).ax.at,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l),B.cP,A.bL(A.jA(B.kb,B.aaZ,new A.ahr(n,a),A.eB(l,l,new A.bI(B.dI,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l)],p),B.p,B.aC,B.v),l)],p),B.p,B.u,B.v),l),l,l,l),l),B.l,10)},
+return A.eY(new A.aE(B.Nu,A.lx(new A.aE(B.vR,A.cx(A.a([s,B.aF,new A.fO(1,B.bh,A.nu(A.a([c,B.vE,r,B.aF,q],p),B.b7,B.a0,!0),l),new A.aE(B.d0,A.c8(A.a([A.bL(A.jA(B.PN,B.ab9,new A.ahq(n,a),A.eB(l,l,new A.bI(A.D(a).ax.at,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l),B.cP,A.bL(A.jA(B.kb,B.aaZ,new A.ahr(n,a),A.eB(l,l,new A.bI(B.dI,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l)],p),B.p,B.aC,B.v),l)],p),B.p,B.u,B.v),l),l,l,l),l),B.l,10)},
 $S:540}
 A.ahq.prototype={
 $0(){A.d1(this.b,!1).dK(null)
@@ -55091,7 +55099,7 @@ p=o==null?p.f:o
 q=A.kb(!1,B.bQ,n,p,r,!0,n,n,B.iy,n,1,n,q,new A.axP(l,b,s),n,n,n,B.ct,new A.axQ(l))
 r=l.d?A.a8W(a):B.PQ
 p=t.p
-s=A.ahd(n,A.cx(A.a([q,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([B.m,A.jA(r,B.ab8,!A.xI(l.b)||B.d.D(l.a,l.b)?n:new A.axR(l,s,b),n)],p),B.p,B.aC,B.v),B.j,n,n,n,n,30,n,n,n,n,n),n)],p),B.p,B.u,B.v),s)
+s=A.ahd(n,A.cx(A.a([q,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([B.m,A.jA(r,B.ab7,!A.xI(l.b)||B.d.D(l.a,l.b)?n:new A.axR(l,s,b),n)],p),B.p,B.aC,B.v),B.j,n,n,n,n,30,n,n,n,n,n),n)],p),B.p,B.u,B.v),s)
 l=s}s=t.p
 return A.nu(A.a([A.cT(B.pl,A.a([A.lx(new A.aE(B.dP,l,n),m.ax.CW,0,n)],s),B.y,B.V)],s),n,B.a0,!0)},
 $S:544}
@@ -55236,7 +55244,7 @@ n=m==null?n.f:m
 o=A.kb(!1,k,k,n,p,!0,k,k,B.ix,300,q,1,o,new A.ay5(j,b,s),k,k,k,B.ov,new A.ay6())
 q=!l.d?B.m:A.vx(!1,B.abl,B.j,k,k,k,k,k,new A.ay7(a),k,k)
 p=t.p
-s=A.ahd(k,A.cx(A.a([r,o,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([q,B.cP,A.jA(B.PJ,B.ab7,new A.ay8(j,s,b,l.b),k)],p),B.p,B.aC,B.v),B.j,k,k,k,k,40,k,k,k,k,k),k)],p),B.p,B.u,B.v),s)
+s=A.ahd(k,A.cx(A.a([r,o,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([q,B.cP,A.jA(B.PJ,B.ab6,new A.ay8(j,s,b,l.b),k)],p),B.p,B.aC,B.v),B.j,k,k,k,k,40,k,k,k,k,k),k)],p),B.p,B.u,B.v),s)
 j=s}return new A.aE(B.a7,A.nu(A.a([A.eY(A.lx(new A.aE(B.dP,j,k),k,k,k),B.l,10)],t.p),k,B.a0,!0),k)},
 $S:575}
 A.ay4.prototype={
@@ -120038,14 +120046,14 @@ B.ab_=new A.cm("Abandon Bounty",null,null,null,null,null,null,null,null)
 B.ab0=new A.cm("More",null,null,null,null,B.a6,2,null,null)
 B.ab1=new A.cm("Insert Default Bounty",null,null,null,null,null,null,null,null)
 B.ab2=new A.cm("Bountyful World is currently undergoing site maintenance. We are working deligently behind the scenes to bring you a bountyful world of opportunities by facilitating your search for all things unique and elusive, large and small.\n\nWe will be back soon but in the mean time, join our email list for news and updates on progress.",null,null,B.T,null,null,null,null,null)
-B.ab3=new A.cm("Post Test Tweet",null,null,null,null,null,null,null,null)
-B.ab4=new A.cm("Cancel Bounty",null,null,null,null,null,null,null,null)
-B.ab5=new A.cm("Logout",null,null,null,null,null,null,null,null)
-B.ab6=new A.cm("High Reward",null,null,null,null,null,null,null,null)
-B.ab7=new A.cm("Send",null,null,null,null,null,null,null,null)
-B.ab8=new A.cm("Add Me!",null,null,null,null,null,null,null,null)
-B.ab9=new A.cm("Bounties",null,null,null,null,B.a6,2,null,null)
-B.aba=new A.cm("Decline",null,null,null,null,null,null,null,null)
+B.ab3=new A.cm("Cancel Bounty",null,null,null,null,null,null,null,null)
+B.ab4=new A.cm("Logout",null,null,null,null,null,null,null,null)
+B.ab5=new A.cm("High Reward",null,null,null,null,null,null,null,null)
+B.ab6=new A.cm("Send",null,null,null,null,null,null,null,null)
+B.ab7=new A.cm("Add Me!",null,null,null,null,null,null,null,null)
+B.ab8=new A.cm("Bounties",null,null,null,null,B.a6,2,null,null)
+B.ab9=new A.cm("Decline",null,null,null,null,null,null,null,null)
+B.aba=new A.cm("Promo Tweet",null,null,null,null,null,null,null,null)
 B.abb=new A.cm("Featured",null,null,null,null,null,null,null,null)
 B.abc=new A.cm("Join The Hunt!",null,null,null,null,null,null,null,null)
 B.abd=new A.cm("Restore Bounty",null,null,null,null,null,null,null,null)

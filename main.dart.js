@@ -9680,7 +9680,7 @@ break
 case 6:case 1:return A.v(q,r)
 case 2:return A.u(o,r)}})
 return A.w($async$qi,r)},
-h_(a7){var s=0,r=A.x(t.Ip),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6
+h_(a6,a7){var s=0,r=A.x(t.Ip),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5
 var $async$h_=A.t(function(a8,a9){if(a8===1){o=a9
 s=p}while(true)switch(s){case 0:A.b4().$1("[GSHEETS API GET REMOTE EMAILS] INITIALIZING ORDER GSHEETS")
 c=t.Xy
@@ -9694,8 +9694,8 @@ p=2
 s=6
 break
 case 4:p=3
-a4=o
-m=A.aj(a4)
+a3=o
+m=A.aj(a3)
 A.b4().$1("[GSHEETS API GET REMOTE EMAILS] ERROR RETRIEVING LOCAL EMAILS FROM DBASE "+A.f(m))
 s=6
 break
@@ -9710,8 +9710,8 @@ s=9
 return A.o(J.aTu(k,"last_remote_emails_update"),$async$h_)
 case 9:a0=a9
 a1=A.kB(a0==null?a.fG():a0)
-a2=a.qK(B.eH).a>a1.a
-s=J.h7(n)||a2?10:12
+c=a.qK(B.eH)
+s=J.h7(n)||c.a>a1.a||a7?10:12
 break
 case 10:s=13
 return A.o(A.vq(),$async$h_)
@@ -9737,8 +9737,8 @@ s=J.aK(l)!==0?26:28
 break
 case 26:g=B.MM.gYy()
 c=l
-a3=A.bp(c).i("a1<1,d>")
-f=g.$2(J.bb(n,new A.asr(),t.N).aO(0),A.a_(new A.a1(c,new A.ass(),a3),!0,a3.i("aW.E")))
+a2=A.bp(c).i("a1<1,d>")
+f=g.$2(J.bb(n,new A.asr(),t.N).aO(0),A.a_(new A.a1(c,new A.ass(),a2),!0,a2.i("aW.E")))
 A.b4().$1("[GSHEETS GET REMOTE EMAILS] LISTS EQUAL??? "+A.f(f))
 s=!f?29:30
 break
@@ -9754,8 +9754,8 @@ case 27:p=16
 s=25
 break
 case 23:p=22
-a5=o
-e=A.aj(a5)
+a4=o
+e=A.aj(a4)
 A.b4().$1("[GSHEETS GET REMOTE EMAILS] ERROR COMPARING AND UPDATING STORED EMAIL DATA. RESETTING STORED EMAILS...\nERROR => "+A.f(e))
 s=32
 return A.o(J.Ox(k,"subscriber_email_list",""),$async$h_)
@@ -9770,8 +9770,8 @@ p=2
 s=18
 break
 case 16:p=15
-a6=o
-c=A.aj(a6)
+a5=o
+c=A.aj(a5)
 s=c instanceof A.EN?33:35
 break
 case 33:d=c
@@ -9783,7 +9783,7 @@ s=1
 break
 s=34
 break
-case 35:throw a6
+case 35:throw a5
 case 34:s=18
 break
 case 15:s=2
@@ -9824,7 +9824,7 @@ case 6:m=a2
 b=B.d
 a=J
 s=10
-return A.o(A.h_(!1),$async$nW)
+return A.o(A.h_(!1,!1),$async$nW)
 case 10:s=!b.dQ(a.bb(a2,new A.asw(),t.N).aO(0),new A.asx(a0))?7:9
 break
 case 7:p=12
@@ -53809,7 +53809,7 @@ return A.o(A.eu(a).az(0,new A.aLn(q),p),$async$m7)
 case 5:s=!a?6:7
 break
 case 6:s=8
-return A.o(A.h_(!0).az(0,new A.aLo(q),p),$async$m7)
+return A.o(A.h_(!0,!1).az(0,new A.aLo(q),p),$async$m7)
 case 8:case 7:s=9
 return A.o(A.ahW().az(0,new A.aLp(q),p),$async$m7)
 case 9:s=10
@@ -54140,7 +54140,7 @@ return A.o(A.EM().az(0,new A.aKR(q),p),$async$jd)
 case 3:s=4
 return A.o(A.EL().az(0,new A.aKS(q),p),$async$jd)
 case 4:s=5
-return A.o(A.h_(!1).az(0,new A.aKT(q),p),$async$jd)
+return A.o(A.h_(!1,!0).az(0,new A.aKT(q),p),$async$jd)
 case 5:return A.v(null,r)}})
 return A.w($async$jd,r)},
 CT(){var s=0,r=A.x(t.H),q,p=2,o,n=this,m,l,k,j,i,h
@@ -54328,7 +54328,7 @@ var $async$$0=A.t(function(a,b){if(a===1)return A.u(b,r)
 while(true)switch(s){case 0:A.d1(q.a,!1).dK(null)
 $.cv().sm(0,!0)
 s=2
-return A.o(A.h_(!1),$async$$0)
+return A.o(A.h_(!1,!1),$async$$0)
 case 2:s=3
 return A.o(A.eu(!0).az(0,new A.aKu(),t.y),$async$$0)
 case 3:$.cv().sm(0,!1)
@@ -55181,7 +55181,7 @@ s=p?2:4
 break
 case 2:$.bX().bX(B.O,m,null,null)
 s=5
-return A.o(A.h_(!1).az(0,new A.axG(n,o),t.H),$async$$1)
+return A.o(A.h_(!1,!1).az(0,new A.axG(n,o),t.H),$async$$1)
 case 5:p=A.a(["mettacode@gmail.com","mettacode@gmail.com"],t.s)
 m=n.b
 s=6

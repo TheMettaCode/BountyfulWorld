@@ -53855,7 +53855,7 @@ s=A.D(s).ax
 r=s.y
 s=r==null?s.f:r
 s=new A.bI(A.ak(89,s.gm(s)>>>16&255,s.gm(s)>>>8&255,s.gm(s)&255),t.h9)}else s=m
-s=A.Eh(!1,B.abf,B.j,m,m,m,m,m,l,m,A.eB(m,m,s,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
+s=A.Eh(!1,B.abe,B.j,m,m,m,m,m,l,m,A.eB(m,m,s,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
 l=J.e($.en().a,1)?new A.aLa():new A.aLb()
 if(J.e($.en().a,1)){r=n.c
 r.toString
@@ -53863,7 +53863,7 @@ r=A.D(r).ax
 q=r.y
 r=q==null?r.f:q
 r=new A.bI(A.ak(89,r.gm(r)>>>16&255,r.gm(r)>>>8&255,r.gm(r)&255),t.h9)}else r=m
-r=A.Eh(!1,B.ab8,B.j,m,m,m,m,m,l,m,A.eB(m,m,r,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
+r=A.Eh(!1,B.ab7,B.j,m,m,m,m,m,l,m,A.eB(m,m,r,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m))
 l=J.e($.en().a,3)?new A.aLc():new A.aLd()
 if(J.e($.en().a,3)){q=n.c
 q.toString
@@ -53975,7 +53975,7 @@ h.toString
 q=A.aQ("Contact Us",j,j,j,B.b_,B.T,j)
 p=t.p
 o=A.cT(B.t,A.a([A.Av(h,A.oZ(h,j,85,"bw",j))],p),B.y,B.V)
-h=A.eY(A.cx(A.a([B.abe,B.aF,A.dl(h,j,800,!1,j,"Send Us A Message",A.a([A.b1K(!1)],p))],p),B.p,B.u,B.v),B.l,15)
+h=A.eY(A.cx(A.a([B.abd,B.aF,A.dl(h,j,800,!1,j,"Send Us A Message",A.a([A.b1K(!1)],p))],p),B.p,B.u,B.v),B.l,15)
 n=i.c
 n.toString
 n=A.bn5(n,i.at)
@@ -54201,9 +54201,9 @@ k=A.hL(B.PF,B.aaX,f,new A.aKA(a),f)
 j=g.at.length
 j=j===0?B.m:A.hL(B.Pz,A.aQ(""+j+" Email Subscribers",f,f,f,f,f,f),f,new A.aKB(),f)
 i=t.p
-j=A.cx(A.a([k,j,A.hL(B.PS,B.ab4,f,new A.aKC(a),f)],i),B.cc,B.u,B.v)
+j=A.cx(A.a([k,j,A.hL(B.PS,B.ab3,f,new A.aKC(a),f)],i),B.cc,B.u,B.v)
 if(n)n=B.m
-else{n=A.hL(B.PT,B.aba,f,new A.aKD(),f)
+else{n=A.hL(B.PT,B.ab9,f,new A.aKD(),f)
 k=A.hL(B.PP,B.abj,f,new A.aKE(a),f)
 h=g.x
 h=h==null?B.m:A.hL(B.PR,A.aQ(""+h.c+" App Opens",f,f,f,f,f,f),f,f,f)
@@ -54411,7 +54411,7 @@ a=a1.ay
 if(a==null||a<h)h=B.m
 else{h=A.D(a2).ax
 a=h.y
-h=A.cT(B.bP,A.a([A.bL(A.hL(A.cS(B.k9,a==null?h.f:a,20),B.abb,i,i,i),30,i)],l),B.y,B.V)}a=A.fH(s)<5000?B.m:A.cT(B.bP,A.a([A.bL(A.hL(B.PV,B.ab5,i,i,i),30,i)],l),B.y,B.V)
+h=A.cT(B.bP,A.a([A.bL(A.hL(A.cS(B.k9,a==null?h.f:a,20),B.aba,i,i,i),30,i)],l),B.y,B.V)}a=A.fH(s)<5000?B.m:A.cT(B.bP,A.a([A.bL(A.hL(B.PV,B.ab4,i,i,i),30,i)],l),B.y,B.V)
 if(d.length===0)d=B.m
 else{s=A.D(a2).ax
 k=s.y
@@ -54424,11 +54424,11 @@ h=!f
 if(h&&!e)a=B.m
 else{a=t.Il
 if(!b){a=A.eB(i,i,new A.bI(B.dI,a),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
-a=A.jA(A.cS(B.wk,A.D(a2).ax.c,i),B.abd,new A.aFy(j,a1,f),a)}else{a=A.eB(i,i,new A.bI(A.D(a2).ax.at,a),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
-a=A.jA(A.cS(B.wk,A.D(a2).ax.c,i),B.ab3,new A.aFz(j,a1,f),a)}a=A.bL(a,30,i)}if(g)h=B.m
+a=A.jA(A.cS(B.wk,A.D(a2).ax.c,i),B.abc,new A.aFy(j,a1,f),a)}else{a=A.eB(i,i,new A.bI(A.D(a2).ax.at,a),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)
+a=A.jA(A.cS(B.wk,A.D(a2).ax.c,i),B.ab2,new A.aFz(j,a1,f),a)}a=A.bL(a,30,i)}if(g)h=B.m
 else{if(e)p=B.m
 else{p=t.Il
-p=c?A.bL(A.jA(B.kb,B.ab_,new A.aFA(j,a1,a3,f,a2),A.eB(i,i,new A.bI(A.D(a2).ax.at,p),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),30,i):A.bL(A.jA(B.PW,B.abc,new A.aFB(j,a3,a2,a1,f),A.eB(i,i,new A.bI(B.dI,p),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),30,i)}r=A.bL(A.jA(B.wu,B.Hq,new A.aFC("Check out this Bountyful World listing! I thought you might be interested.\n\nBounty ID: "+a1.a+"\n"+a1.e+"\n\t"+a1.f+"\n\nListing Information:\n\tBounty Reward: \b"+r+"\b\n\t"+q+" Hunting\n\t"+o+" Inquiries",a2),i),30,i)
+p=c?A.bL(A.jA(B.kb,B.ab_,new A.aFA(j,a1,a3,f,a2),A.eB(i,i,new A.bI(A.D(a2).ax.at,p),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),30,i):A.bL(A.jA(B.PW,B.abb,new A.aFB(j,a3,a2,a1,f),A.eB(i,i,new A.bI(B.dI,p),i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),30,i)}r=A.bL(A.jA(B.wu,B.Hq,new A.aFC("Check out this Bountyful World listing! I thought you might be interested.\n\nBounty ID: "+a1.a+"\n"+a1.e+"\n\t"+a1.f+"\n\nListing Information:\n\tBounty Reward: \b"+r+"\b\n\t"+q+" Hunting\n\t"+o+" Inquiries",a2),i),30,i)
 if(e)q=B.m
 else{q=j.d?A.a8W(a2):B.wt
 q=A.bL(A.jA(q,B.aaT,new A.aFD(j,a2,a3,a1,f),i),30,i)}if(h)h=B.m
@@ -54470,7 +54470,7 @@ else{s=A.eB(f,f,new A.bI(B.dI,t.Il),f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f)
 s=new A.aE(B.Ns,A.bL(A.c8(A.a([A.xS(!0,A.Eh(!1,A.aQ("HUNTING",f,f,f,A.d5(f,f,A.D(a).ax.c,f,f,f,f,f,f,f,f,f,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f),B.j,f,f,f,f,f,f,f,s),B.l,B.Nh,!0)],t.p),B.p,B.aC,B.v),25,f),f)}d=A.dl(a,f,800,!1,f,"About This Bounty",A.a([s,A.aQ(e.e.toUpperCase(),f,f,f,B.a9M,B.T,f),A.aQ(d,f,f,f,f,B.T,f)],t.p))}s=g.c
 if(s){r=A.D(a).ax
 q=r.y
-r=A.c8(A.a([A.cS(B.hn,q==null?r.f:q,14),B.abg],t.p),B.p,B.aC,B.v)}else r=A.aQ(B.c.hJ(e.d.a,0,6,"C-"),1,B.a6,f,f,f,f)
+r=A.c8(A.a([A.cS(B.hn,q==null?r.f:q,14),B.abf],t.p),B.p,B.aC,B.v)}else r=A.aQ(B.c.hJ(e.d.a,0,6,"C-"),1,B.a6,f,f,f,f)
 q=t.p
 r=A.dl(a,f,800,!1,f,"Creator",A.a([r],q))
 p=A.dl(a,f,800,!1,f,"ID",A.a([A.aQ("B-"+A.f(B.d.ga0(e.a.split("_"))),f,f,f,f,B.T,f)],q))
@@ -55072,7 +55072,7 @@ q=A.cL(q,f,e)
 q=A.cx(A.a([B.vE,A.aQ(A.cL(q,d,j),l,l,l,l,l,l),B.aF],t.p),B.p,B.u,B.v)}p=t.p
 o=t.Il
 n=m.a
-return A.eY(new A.aE(B.Nu,A.lx(new A.aE(B.vR,A.cx(A.a([s,B.aF,new A.fO(1,B.bh,A.nu(A.a([c,B.vE,r,B.aF,q],p),B.b7,B.a0,!0),l),new A.aE(B.d0,A.c8(A.a([A.bL(A.jA(B.PN,B.ab9,new A.ahq(n,a),A.eB(l,l,new A.bI(A.D(a).ax.at,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l),B.cP,A.bL(A.jA(B.kb,B.aaZ,new A.ahr(n,a),A.eB(l,l,new A.bI(B.dI,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l)],p),B.p,B.aC,B.v),l)],p),B.p,B.u,B.v),l),l,l,l),l),B.l,10)},
+return A.eY(new A.aE(B.Nu,A.lx(new A.aE(B.vR,A.cx(A.a([s,B.aF,new A.fO(1,B.bh,A.nu(A.a([c,B.vE,r,B.aF,q],p),B.b7,B.a0,!0),l),new A.aE(B.d0,A.c8(A.a([A.bL(A.jA(B.PN,B.ab8,new A.ahq(n,a),A.eB(l,l,new A.bI(A.D(a).ax.at,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l),B.cP,A.bL(A.jA(B.kb,B.aaZ,new A.ahr(n,a),A.eB(l,l,new A.bI(B.dI,o),l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)),30,l)],p),B.p,B.aC,B.v),l)],p),B.p,B.u,B.v),l),l,l,l),l),B.l,10)},
 $S:540}
 A.ahq.prototype={
 $0(){A.d1(this.b,!1).dK(null)
@@ -55099,7 +55099,7 @@ p=o==null?p.f:o
 q=A.kb(!1,B.bQ,n,p,r,!0,n,n,B.iy,n,1,n,q,new A.axP(l,b,s),n,n,n,B.ct,new A.axQ(l))
 r=l.d?A.a8W(a):B.PQ
 p=t.p
-s=A.ahd(n,A.cx(A.a([q,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([B.m,A.jA(r,B.ab7,!A.xI(l.b)||B.d.D(l.a,l.b)?n:new A.axR(l,s,b),n)],p),B.p,B.aC,B.v),B.j,n,n,n,n,30,n,n,n,n,n),n)],p),B.p,B.u,B.v),s)
+s=A.ahd(n,A.cx(A.a([q,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([B.m,A.jA(r,B.ab6,!A.xI(l.b)||B.d.D(l.a,l.b)?n:new A.axR(l,s,b),n)],p),B.p,B.aC,B.v),B.j,n,n,n,n,30,n,n,n,n,n),n)],p),B.p,B.u,B.v),s)
 l=s}s=t.p
 return A.nu(A.a([A.cT(B.pl,A.a([A.lx(new A.aE(B.dP,l,n),m.ax.CW,0,n)],s),B.y,B.V)],s),n,B.a0,!0)},
 $S:544}
@@ -55244,7 +55244,7 @@ n=m==null?n.f:m
 o=A.kb(!1,k,k,n,p,!0,k,k,B.ix,300,q,1,o,new A.ay5(j,b,s),k,k,k,B.ov,new A.ay6())
 q=!l.d?B.m:A.vx(!1,B.abl,B.j,k,k,k,k,k,new A.ay7(a),k,k)
 p=t.p
-s=A.ahd(k,A.cx(A.a([r,o,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([q,B.cP,A.jA(B.PJ,B.ab6,new A.ay8(j,s,b,l.b),k)],p),B.p,B.aC,B.v),B.j,k,k,k,k,40,k,k,k,k,k),k)],p),B.p,B.u,B.v),s)
+s=A.ahd(k,A.cx(A.a([r,o,new A.aE(B.vO,A.bY(B.eq,A.c8(A.a([q,B.cP,A.jA(B.PJ,B.ab5,new A.ay8(j,s,b,l.b),k)],p),B.p,B.aC,B.v),B.j,k,k,k,k,40,k,k,k,k,k),k)],p),B.p,B.u,B.v),s)
 j=s}return new A.aE(B.a7,A.nu(A.a([A.eY(A.lx(new A.aE(B.dP,j,k),k,k,k),B.l,10)],t.p),k,B.a0,!0),k)},
 $S:575}
 A.ay4.prototype={
@@ -55492,7 +55492,7 @@ return null},
 $S:0}
 A.Ym.prototype={
 N(a){var s=null,r=A.D(a),q=t.p
-return A.bY(s,new A.aE(B.eJ,A.eY(A.asJ(A.cx(A.a([A.eY(A.dl(a,s,800,!1,s,s,A.a([A.Av(a,A.bh7(a))],q)),B.l,15),A.eY(A.dl(a,25,800,!0,s,"Bountyful World is Under Maintenance",A.a([B.ab2],q)),B.l,15),A.dl(a,s,800,!1,4,"Get On The List!",A.a([A.eY(A.b1J(this.c,!1),B.l,100)],q))],q),B.p,B.aC,B.v),s,B.b7),B.l,10),s),B.j,r.ax.b,s,s,s,1/0,s,s,s,s,1/0)}}
+return A.bY(s,new A.aE(B.eJ,A.eY(A.asJ(A.cx(A.a([A.eY(A.dl(a,s,800,!1,s,s,A.a([A.Av(a,A.bh7(a))],q)),B.l,15),A.eY(A.dl(a,25,800,!0,s,"Bountyful World is Under Maintenance",A.a([B.abg],q)),B.l,15),A.dl(a,s,800,!1,4,"Get On The List!",A.a([A.eY(A.b1J(this.c,!1),B.l,100)],q))],q),B.p,B.aC,B.v),s,B.b7),B.l,10),s),B.j,r.ax.b,s,s,s,1/0,s,s,s,s,1/0)}}
 A.ue.prototype={
 ad(){return new A.a1Y(new A.by(null,t.am),A.bdu(".",2,""),new A.aJ(Date.now(),!1),B.i)}}
 A.a1Y.prototype={
@@ -120045,21 +120045,21 @@ B.aaZ=new A.cm("I Agree",null,null,null,null,null,null,null,null)
 B.ab_=new A.cm("Abandon Bounty",null,null,null,null,null,null,null,null)
 B.ab0=new A.cm("More",null,null,null,null,B.a6,2,null,null)
 B.ab1=new A.cm("Insert Default Bounty",null,null,null,null,null,null,null,null)
-B.ab2=new A.cm("Bountyful World is currently undergoing site maintenance. We are working deligently behind the scenes to bring you a bountyful world of opportunities by facilitating your search for all things unique and elusive, large and small.\n\nWe will be back soon but in the mean time, join our email list for news and updates on progress.",null,null,B.T,null,null,null,null,null)
-B.ab3=new A.cm("Cancel Bounty",null,null,null,null,null,null,null,null)
-B.ab4=new A.cm("Logout",null,null,null,null,null,null,null,null)
-B.ab5=new A.cm("High Reward",null,null,null,null,null,null,null,null)
-B.ab6=new A.cm("Send",null,null,null,null,null,null,null,null)
-B.ab7=new A.cm("Add Me!",null,null,null,null,null,null,null,null)
-B.ab8=new A.cm("Bounties",null,null,null,null,B.a6,2,null,null)
-B.ab9=new A.cm("Decline",null,null,null,null,null,null,null,null)
-B.aba=new A.cm("Promo Tweet",null,null,null,null,null,null,null,null)
-B.abb=new A.cm("Featured",null,null,null,null,null,null,null,null)
-B.abc=new A.cm("Join The Hunt!",null,null,null,null,null,null,null,null)
-B.abd=new A.cm("Restore Bounty",null,null,null,null,null,null,null,null)
-B.abe=new A.cm("Contact the Bountyful World team by using the form shown below. We will reach out as soon as we can.",null,null,B.T,null,null,null,null,null)
-B.abf=new A.cm("Home",null,null,null,null,B.a6,2,null,null)
-B.abg=new A.cm(" YOU",null,null,null,null,B.a6,1,null,null)
+B.ab2=new A.cm("Cancel Bounty",null,null,null,null,null,null,null,null)
+B.ab3=new A.cm("Logout",null,null,null,null,null,null,null,null)
+B.ab4=new A.cm("High Reward",null,null,null,null,null,null,null,null)
+B.ab5=new A.cm("Send",null,null,null,null,null,null,null,null)
+B.ab6=new A.cm("Add Me!",null,null,null,null,null,null,null,null)
+B.ab7=new A.cm("Bounties",null,null,null,null,B.a6,2,null,null)
+B.ab8=new A.cm("Decline",null,null,null,null,null,null,null,null)
+B.ab9=new A.cm("Promo Tweet",null,null,null,null,null,null,null,null)
+B.aba=new A.cm("Featured",null,null,null,null,null,null,null,null)
+B.abb=new A.cm("Join The Hunt!",null,null,null,null,null,null,null,null)
+B.abc=new A.cm("Restore Bounty",null,null,null,null,null,null,null,null)
+B.abd=new A.cm("Contact the Bountyful World team by using the form shown below. We will reach out as soon as we can.",null,null,B.T,null,null,null,null,null)
+B.abe=new A.cm("Home",null,null,null,null,B.a6,2,null,null)
+B.abf=new A.cm(" YOU",null,null,null,null,B.a6,1,null,null)
+B.abg=new A.cm("Bountyful World is currently undergoing development. We are working deligently behind the scenes to bring you a bountyful world of opportunities by facilitating your search for all things unique and elusive, large and small.\n\nWe will be beta-testing soon with a limited number of users so get on the list now for early access, news and updates!",null,null,B.T,null,null,null,null,null)
 B.abh=new A.cm("Reply",null,null,null,null,null,null,null,null)
 B.abi=new A.cm("Send Comment",null,null,null,null,null,null,null,null)
 B.abj=new A.cm("Reload Remote Data",null,null,null,null,null,null,null,null)

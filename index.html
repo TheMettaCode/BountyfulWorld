@@ -48,9 +48,20 @@
   <title>Bountyful World Market</title>
   <!-- <link rel="manifest" href="manifest.json"> -->
 
+  <!-- Onesignal Integration -->
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "4b773360-94ea-4c3e-8b42-e3916492d5d5",
+      });
+    });
+  </script>
+
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2192280747';
+    var serviceWorkerVersion = '1882778163';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
